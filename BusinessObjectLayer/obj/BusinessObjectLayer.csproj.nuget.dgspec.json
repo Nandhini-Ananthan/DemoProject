@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\BusinessObjectLayer\\BusinessObjectLayer.csproj": {}
+    "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\BusinessObjectLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\BusinessObjectLayer\\BusinessObjectLayer.csproj": {
+    "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\BusinessObjectLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\BusinessObjectLayer\\BusinessObjectLayer.csproj",
+        "projectUniqueName": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\BusinessObjectLayer.csproj",
         "projectName": "BusinessObjectLayer",
-        "projectPath": "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\BusinessObjectLayer\\BusinessObjectLayer.csproj",
+        "projectPath": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\BusinessObjectLayer.csproj",
         "packagesPath": "C:\\Users\\nandh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\BusinessObjectLayer\\obj\\",
+        "outputPath": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nandh\\AppData\\Roaming\\NuGet\\NuGet.Config",

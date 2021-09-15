@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "BusinessObjectLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BusinessObjectLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessObjectLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BusinessObjectLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessObjectLayer/BusinessObjectLayer.csproj",
+      "msbuildProject": "../BusinessObjectLayer/BusinessObjectLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "BusinessObjectLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nandh\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\nandh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nandh\\source\\repos\\TrainingGithubRepos\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nandh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\BusinessObjectLayer.csproj": {
+              "projectPath": "C:\\Users\\nandh\\Source\\Repos\\DemoProject\\BusinessObjectLayer\\BusinessObjectLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
